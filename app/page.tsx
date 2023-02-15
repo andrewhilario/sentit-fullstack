@@ -4,6 +4,7 @@ import AddPost from './components/AddPost'
 import { useQuery } from "@tanstack/react-query"
 import Post from './components/Post'
 import { PostType } from './types/Posts'
+import supportsColor from 'supports-color';
 
 // Fetch all post
 const allPosts = async () => {
